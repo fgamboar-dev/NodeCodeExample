@@ -35,4 +35,4 @@ jobs:
         uses: aws-actions/aws-lambda-deploy@v1
         with:
           function-name: NodeHelloWorld
-          zip-file: function.zip
+          code-artifacts-dir: .
